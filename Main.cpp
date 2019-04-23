@@ -1,5 +1,6 @@
 #include<iostream>
 #include "HelloClass.h"
+#include "AddressLocate.h"
 using namespace std;
 
 void HelloClass::printDetails()
@@ -11,18 +12,37 @@ void HelloClass::printDetails()
 }
 
 
+void AddressLocate::setValue(int value)
+{
+	*ptr = value;
+
+}
+
+void AddressLocate::getValue(int *ptraddr)
+{
+	
+	cout <<endl<< "Value is" << *(ptraddr);
+}
 
 int main()
 {
 
 	int result = 0;
+	int* ptr = (int*)BASE_ADDRESS_LOCATE;
 
+ 
 	cout << "Hello world";
 
 	HelloClass hello1;
+	AddressLocate addr1;
 
 
-	hello1.printDetails();	
+	hello1.printDetails();
 
-	return result;
+	addr1.setValue(10);
+
+	addr1.getValue(&result);
+
+
+ 	return result;
 }
