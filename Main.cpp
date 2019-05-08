@@ -9,7 +9,9 @@ void HelloClass::printDetails()
 	cout << "Printing details;";
 	cout << endl << "Age is" << age;
 	cout << endl << "Name is" << name;
-	cout <<endl <<" New git change_master";
+	cout <<endl <<" New git change_devRC01";
+	cout <<endl <<" New git change2_devRC01";
+
 
 }
 
