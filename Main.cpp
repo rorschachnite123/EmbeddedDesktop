@@ -31,7 +31,6 @@ int main()
 
 	int result = 0;
 	int* ptr = (int*)BASE_ADDRESS_LOCATE;
->>>>>>> devRC01
 
  
 	cout << "Hello world";
