@@ -5,14 +5,11 @@ using namespace std;
 
 void HelloClass::printDetails()
 {
-	
+
 	cout << "Printing details;";
 	cout << endl << "Age is" << age;
 	cout << endl << "Name is" << name;
-	cout <<endl <<" New git change";
-	cout <<endl <<" New git change2";
-	cout << endl << " New git change_devRC02";
-
+	cout <<endl <<" New git change_master";
 
 }
 
@@ -25,17 +22,17 @@ void AddressLocate::setValue(int value)
 
 void AddressLocate::getValue(int *ptraddr)
 {
-	
+
 	cout <<endl<< "Value is" << *(ptraddr);
 }
 
 int main()
 {
 
-	int result = 0;
+	int result = 0, sai=1;
 	int* ptr = (int*)BASE_ADDRESS_LOCATE;
 
- 
+
 	cout << "Hello world";
 
 	HelloClass hello1;
