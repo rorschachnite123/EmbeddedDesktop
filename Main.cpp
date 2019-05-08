@@ -11,6 +11,8 @@ void HelloClass::printDetails()
 	cout << endl << "Name is" << name;
 	cout <<endl <<" New git change";
 	cout <<endl <<" New git change2";
+	cout << endl << " New git change_devRC02";
+
 
 }
 
