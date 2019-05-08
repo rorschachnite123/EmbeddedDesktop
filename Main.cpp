@@ -29,7 +29,7 @@ void AddressLocate::getValue(int *ptraddr)
 int main()
 {
 
-	int result = 0;
+	int result = 0, sai=1;
 	int* ptr = (int*)BASE_ADDRESS_LOCATE;
 
  
