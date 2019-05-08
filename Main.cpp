@@ -22,7 +22,7 @@ void AddressLocate::setValue(int value)
 
 void AddressLocate::getValue(int *ptraddr)
 {
-	
+
 	cout <<endl<< "Value is" << *(ptraddr);
 }
 
@@ -32,7 +32,7 @@ int main()
 	int result = 0, sai=1;
 	int* ptr = (int*)BASE_ADDRESS_LOCATE;
 
- 
+
 	cout << "Hello world";
 
 	HelloClass hello1;
