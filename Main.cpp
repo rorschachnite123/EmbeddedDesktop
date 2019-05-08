@@ -9,7 +9,6 @@ void HelloClass::printDetails()
 	cout << endl << "Age is" << age;
 	cout << endl << "Name is" << name;
 	cout <<endl <<" New git change";
-	cout <<endl <<" New git change3a";
 
 }
 
@@ -18,7 +17,7 @@ void HelloClass::printDetails()
 int main()
 {
 
-	int result = 0;
+	int result = 0, sai=1;
 
 	cout << "Hello world";
 
